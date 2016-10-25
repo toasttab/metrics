@@ -8,7 +8,9 @@
         <version>3.1.2</version>
     </parent>
 
+    <groupId>com.toasttab.service</groupId>
     <artifactId>metrics-jetty9</artifactId>
+    <version>3.2.2+toast-patched-from-3.1.2</version>
     <name>Metrics Integration for Jetty 9.1 and higher</name>
     <packaging>bundle</packaging>
     <description>
@@ -20,7 +22,7 @@
         <dependency>
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-core</artifactId>
-            <version>${project.version}</version>
+            <version>3.1.2</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
@@ -34,7 +36,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    
     <build>
         <plugins>
             <plugin>
